@@ -2,8 +2,8 @@
 #include <iomanip>
 using namespace std;
 int main(){
-	int coluna;
-	cin>>coluna;
+	int linha;
+	cin>>linha;
 	char opcao;
 	cin>>opcao;
 	float soma=0, media=0;
@@ -14,7 +14,7 @@ int main(){
 	}
 	
 	for(int j=0; j<12; j++){
-	soma+=matriz[coluna][j];
+	soma+=matriz[linha][j];
 	}
 	
 	media=soma/12;
